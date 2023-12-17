@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: rgba(246, 203, 69, 0.84); /* Green background for success */
+      width: 100vw;
+      height: 100vh;
+      color: white;
+      font-family: 'Arial Black';
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+    .success-num {
+      font-size: 8em;
+    }
+
+    .eye {
+      background: #fff;
+      border-radius: 50%;
+      display: inline-block;
+      height: 100px;
+      position: relative;
+      width: 100px;
+    }
+
+    .eye::after {
+      background: #000;
+      border-radius: 50%;
+      bottom: 56.1px;
+      content: '';
+      height: 33px;
+      position: absolute;
+      right: 33px;
+      width: 33px;
+    }
+
+    .smile {
+      border-bottom: 5px solid #000;
+      border-radius: 0 0 50% 50%;
+      height: 50px;
+      width: 80px;
+      position: relative;
+      margin: 0 auto;
+    }
+
+    .success-text {
+      font-size: 2em; /* Adjusted font size */
+      margin: 20px 0; /* Added margin for spacing */
+      color: white;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: rgba(208, 172, 60, 0.84);
+      color: black;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: rgba(237, 186, 29, 0.84);
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class='eye'></div>
+    <div class='eye'></div>
+    <div class='smile'></div>
+    <p class='success-text'><b>We received your Order successfully!</b></p>
+    <a th:href="@{/web/checkout}" class='button'><b>Go back</b></a>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    $('body').mousemove(function (event) {
+      var e = $('.eye');
+      var x = (e.offset().left) + (e.width() / 2);
+      var y = (e.offset().top) + (e.height() / 2);
+      var rad = Math.atan2(event.pageX - x, event.pageY - y);
+      var rot = (rad * (180 / Math.PI) * -1) + 180;
+      e.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+  </script>
+</body>
+
+</html>
