@@ -118,36 +118,46 @@ The project involves three main entities: User, Shoe, and Order but not limited 
 7.	Screenshots
 
 Welcome Page
-  
+  ![image](https://github.com/wi127/Ecommerceshoeapp/assets/114063736/13393e6e-f040-43ba-afcf-0fc0ef0aa5d6)
+
 
 Login Page
   
+![image](https://github.com/wi127/Ecommerceshoeapp/assets/114063736/dba544e0-4438-4204-bc60-c6f84d33dab9)
 
 Registration Page
-  
+  ![image](https://github.com/wi127/Ecommerceshoeapp/assets/114063736/3865c50b-fd34-49ab-addd-5bce7fc08265)
+
 User Homepage
   
+![image](https://github.com/wi127/Ecommerceshoeapp/assets/114063736/48bfd042-dc4b-44a5-b948-8e7ef6ab7557)
 
 
 Checkout Page
-  
+  ![image](https://github.com/wi127/Ecommerceshoeapp/assets/114063736/8dc3b0df-1a39-4c7d-84af-aca8d7923a6f)
+
 
 
 Success Order Page
-  
+  ![image](https://github.com/wi127/Ecommerceshoeapp/assets/114063736/3e1f4573-46bc-4868-bc95-88f4a219a567)
+
 
 Admin Welcome Page
- 
+ ![image](https://github.com/wi127/Ecommerceshoeapp/assets/114063736/b9fbfdd8-443b-40dd-8b05-0a95eec49f6c)
+
  
 Admin Insert Item Page
   
+![image](https://github.com/wi127/Ecommerceshoeapp/assets/114063736/a66e5f31-b5cd-465e-9982-1658395487ff)
 
 Admin Items List Page
- 
+ ![image](https://github.com/wi127/Ecommerceshoeapp/assets/114063736/b36830fc-00c0-4411-a905-0ca6ee833aca)
+
  
 Admin Contact Form Page
  
- 
+ ![image](https://github.com/wi127/Ecommerceshoeapp/assets/114063736/8725e5cd-e729-4111-b5ec-daa274282c7a)
+
 ________________________________________
 Conclusion
 This comprehensive documentation outlines the project scope, plan, stack, and user/admin journeys. Follow the setup steps to run the application and ensure a smooth user experience. Any further enhancements or modifications can be incorporated based on the evolving requirements of the Urban Gear Shoes E-commerce platform.
