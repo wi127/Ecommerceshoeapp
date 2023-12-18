@@ -8,17 +8,17 @@ Table of Contents
 5.	Database Schema
 6.	User Documentation
 7.	Technical Documentation
-8.	Screenshots
-o	Welcome Page
-o	Login Page
-o	Registration Page
-o	User Homepage
-o	Checkout Page
-o	Success Order Page
-o	Admin Welcome Page
-o	Admin Insert Item Page
-o	Admin Items List Page
-o	Admin Contact Form Page
+8.	Screenshots:
+    o	Welcome Page
+    o	Login Page
+    o	Registration Page
+    o	User Homepage
+    o	Checkout Page
+    o Success Order Page
+    o	Admin Welcome Page
+    o	Admin Insert Item Page
+    o	Admin Items List Page
+    o	Admin Contact Form Page
 ________________________________________
 1. Introduction
 Welcome to the documentation for the Urban Gear Ecommerce Platform, an innovative and feature-rich web application developed for Urban Gear's shoe collection. This document provides a comprehensive guide to the project, including its requirements, design, implementation details, and usage instructions.
